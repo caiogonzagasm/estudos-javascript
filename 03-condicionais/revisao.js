@@ -22,6 +22,10 @@ else if (saldo === preco) {
     console.log("Compra aprovada e saldo zerado")
 }
 
+else {
+    console.log("Saldo insuficiente")
+}
+
 const nota = 8;
 
 if (nota >= 7) {
